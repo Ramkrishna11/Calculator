@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.container{
+    text-align: center;
+}
+
+.container h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+#answer{
+    width: 350px;
+    border-radius: 12px;
+    padding: 5px;
+    box-shadow: inset 5px 5px 3px grey, inset -5px -5px 3px white;
+}
+
+.calc{
+    background: rgb(200,200,200);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+input{
+    font-size: 30px;
+    width: 70px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 5px 5px 3px grey , -5px -5px 3px white;
+    background:  rgb(200,200,200);
+}
+
+input:hover{
+    box-shadow: inset 5px 5px 3px grey, inset -5px -5px 3px white;
+}
+
+
+
